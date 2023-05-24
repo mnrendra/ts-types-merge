@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/ts-types-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript utility type to merge base object type with a new one.",
   "private": false,
   "main": "dist/index.js",

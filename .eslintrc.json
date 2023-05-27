@@ -12,6 +12,12 @@
     "sourceType": "module"
   },
   "rules": {
-    "max-len": "error"
+    "max-len": ["error", {
+      "ignoreUrls": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreStrings": true
+    }],
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/ban-types": "off"
   }
 }

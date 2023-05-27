@@ -5,8 +5,5 @@
  */
 export type Merge<
   Base extends object,
-  Modif extends object = Record<string, unknown>
-> =
-  Omit<Base, keyof Modif> & Modif
-
-export default Merge
+  Modif extends object = {}
+> = Omit<Base, keyof Modif> & Modif
